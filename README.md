@@ -1,5 +1,4 @@
-# Bot de clima para cidades brasileiras
-
+# Workflow Chatbot Telegram
 Workflow do n8n que recebe mensagens de texto pelo Telegram, consulta a temperatura de cidades do Brasil com o OpenWeatherMap e responde em português. O agente usa um modelo conectado pelo OpenRouter e deve manter as respostas cordiais e limitadas ao clima de cidades brasileiras.
 
 Workflow: [workflow-chatbot-telegram](https://n8n.dizelequefez.com.br/workflow/fMnrlvBkZa5yALaG)
@@ -69,4 +68,3 @@ As chaves de Telegram, OpenRouter e OpenWeatherMap devem ser armazenadas nas **C
 - Não há memória entre mensagens: cada solicitação deve informar a localização necessária.
 - A resposta de clima depende da disponibilidade e dos limites de uso das APIs externas.
 - Para que a validação de cidade/UF descrita nas instruções do agente funcione como previsto, confirme no editor do n8n que todas as ferramentas de geocodificação citadas no prompt estão conectadas ao agente. A consulta meteorológica usa o nó OpenWeatherMap.
-# workflow-chatbot-telegram
